@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CKZIU</title>
+        <link rel="stylesheet" href="css/style3.css" type="text/css">
+        <link rel="icon" href="img/favic.png" type="image/png" sizes="100x100">
+    </head>
+<body>
+    <header>
+        <img src="img/favic.png" width="100" height="100" alt="BRAK" class="logo">
+        <a href="Prototyp.html"></a>
+        <nav>
+            <ul class="nav-area">
+                <a href='Highlights.html'><span>Highlights</span></a>
+                <a href='Galeria-slaw.html'><span>Galeria Sław</span></a>
+                <a href='League.html'><span>League</span></a>
+                <a href='O nas.html'><span>O Nas</span></a>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <img  class="JD" src="img/JD.jpg" alt="BRAK"  width="1920" height="800"> 
+    </div>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+    <div class="opis">
+        <h1 class="info"> CKZIU INDUSTRIES </h1>
+        <p><img class="left" src="img/favic.png" alt="logo"/> CKZIU INDUSTRIES to grupa przyjaciół lubująca się w grach typu League of legends,
+            Minecraft,Counter-Strike,Among Us i wiele Innych</p>
+        <p> Prawie każdy z tego grupy obecnie jest w technikumu na profilu informatycznym 
+            gdzie zmagają się z problemami złego systemu szkolnictwa
+        </p>
+        <p> 12 człoknów, 12 opinii, wiele pomysłów jeszcze większa rozróba</p>
+
+    </div>
+    <div> 
+        <h1 class="drugi">CKZIU INDUSTRIES CZŁONKOWIE</h1>
+    </div>
+    <section>
+        <article >
+    <div class="box">
+        <div class="imgBx">
+            <img src="img/1.PNG ">
+        </div>
+        <div class="content">
+            <h2> Adrian  Bartoszewski</h2>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="img/2.PNG ">
+        </div>
+        <div class="content">
+            <h2> Michał  Rutkowski</h2>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="img/3.PNG">
+        </div>
+        <div class="content">
+            <h2> Krystian Hoga</h2>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="img/4.PNG ">
+        </div>
+        <div class="content">
+            <h2> Mikołaj Tyburski</h2>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="img/5.PNG ">
+        </div>
+        <div class="content">
+            <h2> Patryk Grabowski </h2>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="img/6.PNG ">
+        </div>
+        <div class="content">
+            <h2> Adam Ziółkowski </h2>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="img/7.PNG ">
+        </div>
+        <div class="content">
+            <h2> Maciej Malinowski </h2>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="img/8.PNG ">
+        </div>
+        <div class="content">
+            <h2> Maciej Getka</h2>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="img/9.PNG ">
+        </div>
+        <div class="content">
+            <h2> Patryk Nowak </h2>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="img/10.PNG ">
+        </div>
+        <div class="content">
+            <h2> Bartek Biegański </h2>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="img/11.PNG ">
+        </div>
+        <div class="content">
+            <h2> Bartek Kazimier </h2>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="img/12.PNG ">
+        </div>
+        <div class="content">
+            <h2> Damian Argalski</h2>
+        </div>
+    </div>
+</article>
+    </section>
+    
+    <script type="text/javascript">
+        let progress = document.getElementById('progressbar');
+        let totalHeight = document.body.scrollHeight - window.innerHeight;
+        window.onscroll = function(){
+            let progressHeight = (window.pageYOffset / totalHeight) * 100;
+            progress.style.height = progressHeight + "%";
+        }
+    </script>
+</body>
+</html>

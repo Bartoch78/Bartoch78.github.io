@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <title>CKZIU</title>
+            <link rel="stylesheet" href="css/onas.css" type="text/css">
+            <link rel="icon" href="img/favic.png" type="image/png" sizes="100x100">
+        </head>
+<body>
+    <header>
+        <img src="img/favic.png" width="100" height="100" alt="BRAK" class="logo">
+        <nav>
+            <ul class="nav-area">
+                <a href='Highlights.html'><span>Highlights</span></a>
+                <a href='Galeria-slaw.html'><span>Galeria Sław</span></a>
+                <a href='League.html'><span>League</span></a>
+                <a href='próba2.html'><span>Główna</span></a>
+                
+            </ul>
+        </nav>
+    </header>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+    <div> 
+        <h1 class="drugi"> O CKZIU INDUSTRIES </h1>
+    </div>
+    <article>
+    <div class="card">
+            <div class="content">
+                <h2> Malinowski Maciek </h2>
+                <p> Biały ale czarny w środku, glock-18 posiadany.</p>
+            </div>
+        <img src="img/Malin.png">
+    </div>
+    <div class="card1">
+        <div class="content">
+            <h2> Adrian Bartoszewski</h2>
+            <p> Młody Arab uwielbiający imprezy, sport i czarny humor.</p>
+        </div>
+    <img src="img/Bartoch.png">
+</div>
+<div class="card2">
+    <div class="content">
+        <h2> Nowak Patryk </h2>
+        <p> Dobry chłopak Dobre ziółko .</p>
+    </div>
+<img src="img/Nowak.png">
+</div>
+<div class="card3">
+<div class="content">
+    <h2> Rutkowski Michał </h2>
+    <p> Klasowy Poddymiarz Misja: rozróba .</p>
+</div>
+<img src="img/Rutek.png">
+</div>
+<div class="card4">
+    <div class="content">
+        <h2>Ziółkowski Adam </h2>
+        <p> Koneser tanich piw fan takich marek jak kuflowe oraz kustosz.</p>
+    </div>
+<img src="img/Ziolek.png">
+</div>
+<div class="card5">
+<div class="content">
+    <h2> Krystian Hoga </h2>
+    <p> Młody gitarzysta samuraj uwielbiający alkohole mocne jak i te słabsze.</p>
+</div>
+<img src="img/Hoga.png">
+</div>
+<div class="card6">
+    <div class="content">
+        <h2> Getka Maciek </h2>
+        <p> Ten kelner co chodniki kładzie.</p>
+    </div>
+<img src="img/Getka.png">
+</div>
+<div class="card7">
+<div class="content">
+    <h2> Tyburski Mikołaj </h2>
+    <p> Pierwszy czarny w CKZiUI , imprezowy fotograf.</p>
+</div>
+<img src="img/Tybur.png">
+</div>
+<div class="card8">
+    <div class="content">
+        <h2> Argalski Damian </h2>
+        <p> Demon polskich dróg prawdziwy ghost rider .</p>
+    </div>
+<img src="img/Argal.png">
+</div>
+<div class="card9">
+<div class="content">
+    <h2> Kazimier Bartek </h2>
+    <p> Złota rączka w grupie troche taki Wiesiu.</p>
+</div>
+<img src="img/Kazik.png">
+</div>
+<div class="card10">
+    <div class="content">
+        <h2> Grabowski Patryk</h2>
+        <p> Chudy byk uwielbia browary z festynu.</p>
+    </div>
+<img src="img/Grabek.png" width="300" height="100">
+</div>
+<div class="card11">
+<div class="content">
+    <h2> Biegański Bartek </h2>
+    <p> Początkujący włoski mafiozo, oraz wprawiony handlarz.</p>
+</div>
+<img src="img/Biegan.png">
+</div>
+    </article>
+    <script type="text/javascript">
+        let progress = document.getElementById('progressbar');
+        let totalHeight = document.body.scrollHeight - window.innerHeight;
+        window.onscroll = function(){
+            let progressHeight = (window.pageYOffset / totalHeight) * 100;
+            progress.style.height = progressHeight + "%";
+        }
+    </script>
+</body>
+</html>
