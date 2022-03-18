@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CKZIU</title>
+        <link rel="stylesheet" href="css/style4.css" type="text/css">
+        <link rel="icon" href="img1/favic.png" type="image/png" sizes="100x100">
+    </head>
+    <body class="body">
+        <section class="cale">
+            <header class="head">
+                    <nav>
+                        <ul class="nav-area" >
+                            <img src="img1/favic.png" width="200" height="200" alt="BRAK" class="logo"> 
+                            <a href='Highlights.html'><span>Highlights</span></a>
+                            <a href='Galeria-slaw.html'><span>Galeria Sław</span></a>
+                            <a href='League.html'><span>League</span></a>
+                             <a href='O nas.html'><span>O Nas</span></a>
+                        </ul>
+                    </nav>
+                </header>
+            <div class="cale1">
+                <img  class="JD" src="img1/JD.jpg" alt="BRAK"  width="1500" height="500"> 
+            </div>
+            <div id="progressbar"></div>
+            <div id="scrollPath"></div>
+            <div class="opis">
+                <h1 class="info"> CKZIU INDUSTRIES </h1>
+                <p> CKZIU INDUSTRIES to grupa przyjaciół lubująca się w grach typu League of legends,
+                    Minecraft,Counter-Strike,Among Us i wiele Innych</p>
+                <p> Prawie każdy z tego grupy obecnie jest w technikumu na profilu informatycznym 
+                    gdzie zmagają się z problemami złego systemu szkolnictwa
+                </p>
+                <p> 12 człoknów, 12 opinii, wiele pomysłów jeszcze większa rozróba</p>
+                <h1 class="info1"> </h1>
+            </div>
+            
+                <video class="film" width="800" height="600" controls>
+                    <source src="img1/filmik.mp4" type="video/mp4">
+                  </video>
+           
+            
+                <h1 class="drugi">CKZIU INDUSTRIES CZŁONKOWIE</h1>
+            
+            <section class="ab">
+                <article >
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img1/1.PNG ">
+                </div>
+                <div class="content">
+                    <h2> Adrian  Bartoszewski</h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img1/2.PNG ">
+                </div>
+                <div class="content">
+                    <h2> Michał  Rutkowski</h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img1/3.PNG">
+                </div>
+                <div class="content">
+                    <h2> Krystian Hoga</h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img1/4.PNG ">
+                </div>
+                <div class="content">
+                    <h2> Mikołaj Tyburski</h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img1/5.PNG ">
+                </div>
+                <div class="content">
+                    <h2> Patryk Grabowski </h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img1/6.PNG ">
+                </div>
+                <div class="content">
+                    <h2> Adam Ziółkowski </h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img1/7.PNG ">
+                </div>
+                <div class="content">
+                    <h2> Maciej Malinowski </h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img1/8.PNG ">
+                </div>
+                <div class="content">
+                    <h2> Maciej Getka</h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img1/9.PNG ">
+                </div>
+                <div class="content">
+                    <h2> Patryk Nowak </h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img1/10.PNG ">
+                </div>
+                <div class="content">
+                    <h2> Bartek Biegański </h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img1/11.PNG ">
+                </div>
+                <div class="content">
+                    <h2> Bartek Kazimier </h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img1/12.PNG ">
+                </div>
+                <div class="content">
+                    <h2> Damian Argalski</h2>
+                </div>
+            </div>
+        </article>
+            </section>
+        </section>
+        <script type="text/javascript">
+            let progress = document.getElementById('progressbar');
+            let totalHeight = document.body.scrollHeight - window.innerHeight;
+            window.onscroll = function(){
+                let progressHeight = (window.pageYOffset / totalHeight) * 100;
+                progress.style.height = progressHeight + "%";
+            }
+        </script>
+    </body>
+
+</html>
